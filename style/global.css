@@ -75,6 +75,17 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+a:hover {
+  background: linear-gradient(
+    90deg, 
+    var(--brand-color-secondary) 0%, 
+    var(--brand-color-primary) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
 /* role="list" reforça o fato de ser uma lista, no qual alguns navegadores desabilitam coloca o list-style: none; */
 ul[role="list"] {
   list-style: none;
