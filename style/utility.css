@@ -48,8 +48,16 @@
   display: flex;
 }
 
+.items-center {
+  align-items: center;
+}
+
 .gap-1 {
   gap: 1rem;
+}
+/* para o ponto não ser classe no css foi colocado uma contra barra antes, no html o ponto funciona normalmente */
+.gap-1\.5 {
+  gap: 1.5rem;
 }
 
 .grid {
